@@ -1,5 +1,4 @@
-# i2i-Systems-Summer-Internship
-# 📘 i2i Systems Summer Internship (2025)
+# i2i-Systems-Summer-Internship (2025)
 
 This repository includes all the work, notes, exercises, and mini projects completed during my summer internship at **i2i Systems**, as a Computer Engineering student at **Van Yüzüncü Yıl University**.
 
