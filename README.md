@@ -1,5 +1,4 @@
 # i2i-Systems-Summer-Internship (2025)
-
 This repository includes all the work, notes, exercises, and mini projects completed during my summer internship at **i2i Systems**, as a Computer Engineering student at **Van Yüzüncü Yıl University**.
 
 ---
@@ -15,38 +14,15 @@ This repository includes all the work, notes, exercises, and mini projects compl
 
 ---
 
-## 🗂️ Directory Structure
-
-```bash
-i2i-systems-summer-internship-2025/
-├── README.md
-├── week_01/
-│   ├── java_notes.md
-│   ├── mini_projects/
-│   │   ├── prime_number.java
-│   │   ├── perfect_number.java
-│   │   └── friend_numbers.java
-│   └── oracle_installation.md
-├── week_02/
-│   └── ...
-├── learning_topics.md
-└── internship_summary_report.md
-
-
-⸻
-
 🛠️ Technologies Used
 
-Technology	Purpose
-Java SE 11	OOP and mini algorithm projects
-Oracle SQL 19c	Relational database design and queries
-IntelliJ IDEA	Java development environment
-SQL Developer	Oracle database client and query tool
-Git & GitHub	Version control and progress tracking
-Markdown	Documentation and technical notes
-
-
-⸻
+Technology                               Purpose
+Java SE 11                     OOP and mini algorithm projects
+Oracle SQL 19c                 Relational database design and queries
+IntelliJ IDEA                  Java development environment
+SQL Developer                  Oracle database client and query tool
+Git & GitHub                   Version control and progress tracking
+Markdown                       Documentation and technical notes
 
 🚀 Setup Instructions
 
@@ -108,6 +84,21 @@ Computer Engineering, Van Yüzüncü Yıl University
 📧 print.barissomeroglu@gmail.com
 🌐 linkedin.com/in/barissomeroglu
 
-⸻
-
 📝 This repository will be continuously updated throughout the internship. All content is original and reflects individual learning and practical experience.
+
+## 🗂️ Directory Structure
+
+```bash
+i2i-systems-summer-internship-2025/
+├── README.md
+├── week_01/
+│   ├── java_notes.md
+│   ├── mini_projects/
+│   │   ├── prime_number.java
+│   │   ├── perfect_number.java
+│   │   └── friend_numbers.java
+│   └── oracle_installation.md
+├── week_02/
+│   └── ...
+├── learning_topics.md
+└── internship_summary_report.md
