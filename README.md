@@ -72,7 +72,7 @@ The following topics are studied and practiced throughout the internship:
 - [ ] Advanced Java Programming  
 - [x] Oracle SQL: Setup, User Management, Basic Queries  
 - [ ] API Development and Testing  
-- [ ] Agile Methodologies and SCRUM  
+- [x] Agile Methodologies and SCRUM  
 - [ ] Software Test Automation  
 - [ ] Secure Coding Principles  
 - [ ] Bash Scripting  
