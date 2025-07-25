@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="REGIONS" directorySegmentName="seg_0" id="8EA85DF2-5437-727E-57FE-564376B7A0BD">
+<createdBy>baris</createdBy>
+<createdTime>2025-07-25 21:23:26 UTC</createdTime>
+<ownerDesignName>26.07.2025</ownerDesignName>
+<schemaObject>252D0EB0-50BC-1B62-8BE6-018EC68FF447</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>79D92B27-1310-58AB-1C9D-4D759733F882</segment>
+<tableSpace>DD6FDB9D-00B5-3DD9-7786-17AB384AF0CF</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="REG_ID_PK" id="326ABE41-9A8A-AC82-D7E1-96DFFC5D5B88">
+<createdBy>baris</createdBy>
+<createdTime>2025-07-25 21:23:26 UTC</createdTime>
+<ownerDesignName>26.07.2025</ownerDesignName>
+<schemaObject>252D0EB0-50BC-1B62-8BE6-018EC68FF447</schemaObject>
+<segment>519B303A-0B6C-7C61-6F38-2639242B9C7B</segment>
+<tableSpace>DD6FDB9D-00B5-3DD9-7786-17AB384AF0CF</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="REG_ID_PK" id="80CA35B2-96D8-4E4E-41D0-FA71CAB59F05">
+<createdBy>baris</createdBy>
+<createdTime>2025-07-25 21:23:26 UTC</createdTime>
+<ownerDesignName>26.07.2025</ownerDesignName>
+<segment>519B303A-0B6C-7C61-6F38-2639242B9C7B</segment>
+<tableSpace>DD6FDB9D-00B5-3DD9-7786-17AB384AF0CF</tableSpace>
+<existingIndex>326ABE41-9A8A-AC82-D7E1-96DFFC5D5B88</existingIndex>
+<indexSegment>519B303A-0B6C-7C61-6F38-2639242B9C7B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

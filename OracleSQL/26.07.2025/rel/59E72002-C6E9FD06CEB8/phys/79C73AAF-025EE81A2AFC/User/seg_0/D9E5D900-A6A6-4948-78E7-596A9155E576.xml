@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="BARIS" directorySegmentName="seg_0" id="D9E5D900-A6A6-4948-78E7-596A9155E576">
+<sourceConnName>TEST_BARIS</sourceConnName>
+<sourceObjName>BARIS</sourceObjName>
+<createdBy>baris</createdBy>
+<createdTime>2025-07-25 21:23:25 UTC</createdTime>
+<ownerDesignName>26.07.2025</ownerDesignName>
+<schemaObject>252D0EB0-50BC-1B62-8BE6-018EC68FF447</schemaObject>
+<defTableSpace>DD6FDB9D-00B5-3DD9-7786-17AB384AF0CF</defTableSpace>
+<privileges>UNLIMITED TABLESPACE</privileges>
+</UserOraclev10g>

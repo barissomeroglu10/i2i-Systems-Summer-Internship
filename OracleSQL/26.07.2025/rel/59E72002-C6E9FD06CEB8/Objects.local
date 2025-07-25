@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="252D0EB0-50BC-1B62-8BE6-018EC68FF447" name="BARIS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.SchemaObject" propertyParentId="59E72002-1C4A-1DD3-5EA6-C6E9FD06CEB8" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="376CD011-3291-C95D-2016-7AECB347ADE6" name="LOCATIONS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="59E72002-1C4A-1DD3-5EA6-C6E9FD06CEB8" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="8EA85DF2-5437-727E-57FE-564376B7A0BD" name="REGIONS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="59E72002-1C4A-1DD3-5EA6-C6E9FD06CEB8" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="3CB07F18-D1DD-A248-0DF2-862630927320" name="LOC_C_ID_FK" seqName="seg_0" containerID="376CD011-3291-C95D-2016-7AECB347ADE6" propertyClassName="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" propertyParentId="59E72002-1C4A-1DD3-5EA6-C6E9FD06CEB8" propertySourceId="" propertyTargetId="376CD011-3291-C95D-2016-7AECB347ADE6"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

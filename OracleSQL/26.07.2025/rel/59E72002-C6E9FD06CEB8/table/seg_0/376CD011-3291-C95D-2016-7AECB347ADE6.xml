@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="376CD011-3291-C95D-2016-7AECB347ADE6" schemaObject="252D0EB0-50BC-1B62-8BE6-018EC68FF447" name="LOCATIONS">
+<sourceConnName>TEST_BARIS</sourceConnName>
+<sourceObjSchema>BARIS</sourceObjSchema>
+<sourceObjName>LOCATIONS</sourceObjName>
+<createdBy>baris</createdBy>
+<createdTime>2025-07-25 21:23:35 UTC</createdTime>
+<ownerDesignName>26.07.2025</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AC23A39B-4136-AFA4-DEB8-22BBFC8B71B4" name="LOC_ID_PK">
+<sourceConnName>TEST_BARIS</sourceConnName>
+<sourceObjSchema>BARIS</sourceObjSchema>
+<sourceObjName>LOC_ID_PK</sourceObjName>
+<createdBy>baris</createdBy>
+<createdTime>2025-07-25 21:23:35 UTC</createdTime>
+<ownerDesignName>26.07.2025</ownerDesignName>
+<pk>true</pk>
+<indexExpression>LOCATION_ID</indexExpression>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="5BCD8C4D-AD2B-73CB-5587-A1294E08FD12" schemaObject="252D0EB0-50BC-1B62-8BE6-018EC68FF447" name="LOC_ID_PK">
+<sourceConnName>TEST_BARIS</sourceConnName>
+<sourceObjSchema>BARIS</sourceObjSchema>
+<sourceObjName>LOC_ID_PK</sourceObjName>
+<createdBy>baris</createdBy>
+<createdTime>2025-07-25 21:23:35 UTC</createdTime>
+<ownerDesignName>26.07.2025</ownerDesignName>
+<indexExpression>LOCATION_ID</indexExpression>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="BB3039B1-DBB4-350C-ABE0-E404F42D86CE" name="LOC_C_ID_FK">
+<createdBy>baris</createdBy>
+<createdTime>2025-07-25 21:23:35 UTC</createdTime>
+<ownerDesignName>26.07.2025</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="SYS_C007488" directorySegmentName="seg_0" id="72089B6B-6F81-A470-275C-F46EF7BDC8CE">
+<sourceConnName>TEST_BARIS</sourceConnName>
+<sourceObjSchema>BARIS</sourceObjSchema>
+<sourceObjName>SYS_C007488</sourceObjName>
+<createdBy>baris</createdBy>
+<createdTime>2025-07-25 21:23:35 UTC</createdTime>
+<ownerDesignName>26.07.2025</ownerDesignName>
+<rule><![CDATA["CITY" IS NOT NULL]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

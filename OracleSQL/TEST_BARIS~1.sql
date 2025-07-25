@@ -1,0 +1,1 @@
+SELECT * FROM REGIONS; -- to see data in regions table

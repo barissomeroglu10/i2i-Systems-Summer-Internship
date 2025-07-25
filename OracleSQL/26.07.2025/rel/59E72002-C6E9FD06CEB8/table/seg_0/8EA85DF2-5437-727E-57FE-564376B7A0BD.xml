@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8EA85DF2-5437-727E-57FE-564376B7A0BD" schemaObject="252D0EB0-50BC-1B62-8BE6-018EC68FF447" name="REGIONS">
+<sourceConnName>TEST_BARIS</sourceConnName>
+<sourceObjSchema>BARIS</sourceObjSchema>
+<sourceObjName>REGIONS</sourceObjName>
+<createdBy>baris</createdBy>
+<createdTime>2025-07-25 21:23:26 UTC</createdTime>
+<ownerDesignName>26.07.2025</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="80CA35B2-96D8-4E4E-41D0-FA71CAB59F05" name="REG_ID_PK">
+<sourceConnName>TEST_BARIS</sourceConnName>
+<sourceObjSchema>BARIS</sourceObjSchema>
+<sourceObjName>REG_ID_PK</sourceObjName>
+<createdBy>baris</createdBy>
+<createdTime>2025-07-25 21:23:26 UTC</createdTime>
+<ownerDesignName>26.07.2025</ownerDesignName>
+<pk>true</pk>
+<indexExpression>REGION_ID</indexExpression>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="326ABE41-9A8A-AC82-D7E1-96DFFC5D5B88" schemaObject="252D0EB0-50BC-1B62-8BE6-018EC68FF447" name="REG_ID_PK">
+<sourceConnName>TEST_BARIS</sourceConnName>
+<sourceObjSchema>BARIS</sourceObjSchema>
+<sourceObjName>REG_ID_PK</sourceObjName>
+<createdBy>baris</createdBy>
+<createdTime>2025-07-25 21:23:26 UTC</createdTime>
+<ownerDesignName>26.07.2025</ownerDesignName>
+<indexExpression>REGION_ID</indexExpression>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>
