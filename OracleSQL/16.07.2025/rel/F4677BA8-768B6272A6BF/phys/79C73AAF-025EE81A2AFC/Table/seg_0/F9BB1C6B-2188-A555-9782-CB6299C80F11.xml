@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="LOCATIONS" directorySegmentName="seg_0" id="F9BB1C6B-2188-A555-9782-CB6299C80F11">
+<createdBy>baris</createdBy>
+<createdTime>2025-07-16 02:40:56 UTC</createdTime>
+<ownerDesignName>16.07.2025</ownerDesignName>
+<schemaObject>2CE7367F-2D78-6859-35E1-9F792EF759F4</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>7AB1F398-BF20-D71A-D709-7CE22E6BC8EC</segment>
+<tableSpace>8929C5D0-BD79-2E2D-E46F-ECF1841075CE</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="SYS_C007463" id="92BB44CC-B887-582C-8217-C385A186120C">
+<createdBy>baris</createdBy>
+<createdTime>2025-07-16 02:40:56 UTC</createdTime>
+<ownerDesignName>16.07.2025</ownerDesignName>
+</TableCheckConstraint>
+</tableCheckConstraints>
+</TableProxyOraclev12c>

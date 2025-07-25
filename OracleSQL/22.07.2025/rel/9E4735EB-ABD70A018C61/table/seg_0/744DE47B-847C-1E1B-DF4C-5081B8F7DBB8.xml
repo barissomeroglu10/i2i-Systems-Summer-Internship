@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="744DE47B-847C-1E1B-DF4C-5081B8F7DBB8" schemaObject="CB4CB774-5F23-D3A3-63D5-EAE72EF9BE79" name="EMPLOYEES">
+<sourceConnName>TEST_BARIS</sourceConnName>
+<sourceObjSchema>BARIS</sourceObjSchema>
+<sourceObjName>EMPLOYEES</sourceObjName>
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:27:40 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C858BA80-7887-8669-2987-540E62A4087B" name="EMP_EMP_ID_PK">
+<sourceConnName>TEST_BARIS</sourceConnName>
+<sourceObjSchema>BARIS</sourceObjSchema>
+<sourceObjName>EMP_EMP_ID_PK</sourceObjName>
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:27:40 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+<pk>true</pk>
+<indexExpression>EMPLOYEE_ID</indexExpression>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="E3B08423-65D6-FF94-5CB6-10A0AEC48750" name="EMP_MAIL_UNIQ">
+<sourceConnName>TEST_BARIS</sourceConnName>
+<sourceObjSchema>BARIS</sourceObjSchema>
+<sourceObjName>EMP_MAIL_UNIQ</sourceObjName>
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:27:40 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+<indexExpression>EMAIL</indexExpression>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="23DF21A4-D9C8-8785-06F9-BAF2E6162A4C" schemaObject="CB4CB774-5F23-D3A3-63D5-EAE72EF9BE79" name="EMP_EMP_ID_PK">
+<sourceConnName>TEST_BARIS</sourceConnName>
+<sourceObjSchema>BARIS</sourceObjSchema>
+<sourceObjName>EMP_EMP_ID_PK</sourceObjName>
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:27:40 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+<indexExpression>EMPLOYEE_ID</indexExpression>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="24A529D6-51DE-F577-D41B-A2EFB7801D6F" schemaObject="CB4CB774-5F23-D3A3-63D5-EAE72EF9BE79" name="EMP_MAIL_UNIQ">
+<sourceConnName>TEST_BARIS</sourceConnName>
+<sourceObjSchema>BARIS</sourceObjSchema>
+<sourceObjName>EMP_MAIL_UNIQ</sourceObjName>
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:27:40 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+<indexExpression>EMAIL</indexExpression>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="29E0311F-229D-8859-3CA8-A59F3F6568E8" name="EMP_DEPT_FK">
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:27:40 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="EFC22C62-6182-ADFB-1440-625D4B3C8A95" name="EMP_JOB_FK">
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:27:40 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="15E0498F-BC1D-5F24-E266-9908DB8718A2" name="EMP_MANAGER_FK">
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:27:40 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="EMP_SALARY_MIN" directorySegmentName="seg_0" id="0E0D3CB9-A8BF-7F25-EED5-BD03F0A9F137">
+<sourceConnName>TEST_BARIS</sourceConnName>
+<sourceObjSchema>BARIS</sourceObjSchema>
+<sourceObjName>EMP_SALARY_MIN</sourceObjName>
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:27:40 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+<rule><![CDATA[salary > 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="SYS_C007490" directorySegmentName="seg_0" id="8DB3CBFE-F6E4-90AC-FB33-DA8C49BFCC49">
+<sourceConnName>TEST_BARIS</sourceConnName>
+<sourceObjSchema>BARIS</sourceObjSchema>
+<sourceObjName>SYS_C007490</sourceObjName>
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:27:40 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+<rule><![CDATA["EMAIL" IS NOT NULL]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="SYS_C007491" directorySegmentName="seg_0" id="2B1B10BB-194E-602A-3020-0378D4A8ED14">
+<sourceConnName>TEST_BARIS</sourceConnName>
+<sourceObjSchema>BARIS</sourceObjSchema>
+<sourceObjName>SYS_C007491</sourceObjName>
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:27:40 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+<rule><![CDATA["HIRE_DATE" IS NOT NULL]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

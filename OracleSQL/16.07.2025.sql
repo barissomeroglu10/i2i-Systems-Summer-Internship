@@ -1,0 +1,76 @@
+-- Eğer tablolar zaten varsa, bunları silmek için
+-- DROP TABLE komutlarını kullanabilirsiniz.
+-- Bağımlılıklar nedeniyle silme sırası önemlidir (Foreign Key'ler varsa)
+-- Genellikle en içteki tablodan dışa doğru silinir.
+
+-- Örnek silme sırası (varsayılan foreign key'ler olmadan):
+-- DROP TABLE JOB_HISTORY;
+-- DROP TABLE EMPLOYEES;
+-- DROP TABLE JOBS;
+-- DROP TABLE DEPARTMENTS;
+-- DROP TABLE LOCATIONS; -- Hata aldığınız tablo
+-- DROP TABLE COUNTRIES;
+-- DROP TABLE REGIONS;
+
+-- Şimdi tüm CREATE TABLE komutlarınızı çalıştırabilirsiniz.
+-- (Sizin verdiğiniz tüm CREATE TABLE komutları buraya gelecek)
+
+CREATE TABLE REGIONS (
+  REGION_ID NUMBER,
+  REGION_NAME VARCHAR2(25)
+);
+
+CREATE TABLE COUNTRIES (
+  COUNTRY_ID CHAR(2),
+  COUNTRY_NAME VARCHAR2(40),
+  REGION_ID NUMBER
+);
+
+CREATE TABLE LOCATIONS (
+  LOCATION_ID NUMBER(4),
+  STREET_ADRESS VARCHAR2(40),
+  POSTAL_CODE VARCHAR2(12),
+  CITY VARCHAR2(30) NOT NULL,
+  STATE_PROVINCE VARCHAR2(25),
+  COUNTRY_ID CHAR(2)
+);
+
+CREATE TABLE DEPARTMENTS (
+  DEPARTMENT_ID NUMBER(2),
+  DEPARTMENT_NAME VARCHAR2(30),
+  MANAGER_ID NUMBER(4)
+);
+
+CREATE TABLE JOBS (
+  JOB_ID VARCHAR2(10),
+  JOB_TITLE VARCHAR2(35) NOT NULL,
+  MIN_SALARY NUMBER(6),
+  MAX_SALARY NUMBER(6)
+);
+
+CREATE TABLE EMPLOYEES (
+  EMPLOYEE_ID NUMBER(6),
+  FIRST_NAME VARCHAR2(30),
+  LAST_NAME VARCHAR2(30),
+  EMAIL VARCHAR2(35) NOT NULL,
+  HIRE_DATE DATE NOT NULL,
+  JOB_ID VARCHAR2(10),
+  SALARY NUMBER(8,2),
+  COMISSION_PERCENT NUMBER(2,2),
+  MANAGER_ID NUMBER(6),
+  CONSTRAINT emp_salary_min CHECK (salary > 0),
+  CONSTRAINT emp_mail_uniq UNIQUE (EMAIL)
+);
+
+CREATE TABLE JOB_HISTORY (
+  EMPLOYEE_ID NUMBER(6),
+  start_date DATE NOT NULL,
+  end_date DATE NOT NULL,
+  JOB_ID VARCHAR2(10),
+  DEPARTMENT_ID NUMBER(2),
+  CONSTRAINT jhist_date_interval CHECK (start_date < end_date)
+);
+
+-- DROP TABLE MUSTERI_ADRES;
+-- DROP TABLE MUSTERILER;
+-- DROP TABLE PERSONEL;

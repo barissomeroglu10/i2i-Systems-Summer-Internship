@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3618D599-E107-4D90-B205-2EF200A09CB6" schemaObject="CB4CB774-5F23-D3A3-63D5-EAE72EF9BE79" name="JOBS">
+<sourceConnName>TEST_BARIS</sourceConnName>
+<sourceObjSchema>BARIS</sourceObjSchema>
+<sourceObjName>JOBS</sourceObjName>
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:28:37 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5EEA5825-25C2-2CB0-D98D-14356959FE0C" name="JOB_ID_PK">
+<sourceConnName>TEST_BARIS</sourceConnName>
+<sourceObjSchema>BARIS</sourceObjSchema>
+<sourceObjName>JOB_ID_PK</sourceObjName>
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:28:37 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+<pk>true</pk>
+<indexExpression>JOB_ID</indexExpression>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="61E9BCDB-A139-E51E-D552-5332BEE7BD64" schemaObject="CB4CB774-5F23-D3A3-63D5-EAE72EF9BE79" name="JOB_ID_PK">
+<sourceConnName>TEST_BARIS</sourceConnName>
+<sourceObjSchema>BARIS</sourceObjSchema>
+<sourceObjName>JOB_ID_PK</sourceObjName>
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:28:37 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+<indexExpression>JOB_ID</indexExpression>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="SYS_C007489" directorySegmentName="seg_0" id="B307D046-DB27-44D4-62CE-A18D31D0516D">
+<sourceConnName>TEST_BARIS</sourceConnName>
+<sourceObjSchema>BARIS</sourceObjSchema>
+<sourceObjName>SYS_C007489</sourceObjName>
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:28:37 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+<rule><![CDATA["JOB_TITLE" IS NOT NULL]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

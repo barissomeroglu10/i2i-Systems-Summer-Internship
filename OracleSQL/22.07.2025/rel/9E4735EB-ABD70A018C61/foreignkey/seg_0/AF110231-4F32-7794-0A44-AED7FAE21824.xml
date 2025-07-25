@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AF110231-4F32-7794-0A44-AED7FAE21824" containerWithKeyObject="B2F9ACE8-AC3A-7653-B69E-121F2F378B88" localFKIndex="167851B2-E6F0-46C7-715D-76E3583C3563" name="COUNTR_REG_FK">
+<sourceConnName>TEST_BARIS</sourceConnName>
+<sourceObjSchema>BARIS</sourceObjSchema>
+<sourceObjName>COUNTR_REG_FK</sourceObjName>
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:26:58 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+<referredTableLongName>BARIS.REGIONS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>74D39428-2338-DE74-C023-42708E4400E6</referredTableID>
+<keyObject>B0A11CC9-1590-ACD8-1F2F-BCCD88D62BA1</keyObject>
+<referredKeyID>B0A11CC9-1590-ACD8-1F2F-BCCD88D62BA1</referredKeyID>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

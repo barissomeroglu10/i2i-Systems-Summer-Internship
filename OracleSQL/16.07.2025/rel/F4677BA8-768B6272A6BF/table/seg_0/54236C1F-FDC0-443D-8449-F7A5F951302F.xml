@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="54236C1F-FDC0-443D-8449-F7A5F951302F" schemaObject="2CE7367F-2D78-6859-35E1-9F792EF759F4" name="DEPARTMENTS">
+<sourceConnName>TEST_BARIS</sourceConnName>
+<sourceObjSchema>BARIS</sourceObjSchema>
+<sourceObjName>DEPARTMENTS</sourceObjName>
+<createdBy>baris</createdBy>
+<createdTime>2025-07-16 02:41:17 UTC</createdTime>
+<ownerDesignName>16.07.2025</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+</Table>

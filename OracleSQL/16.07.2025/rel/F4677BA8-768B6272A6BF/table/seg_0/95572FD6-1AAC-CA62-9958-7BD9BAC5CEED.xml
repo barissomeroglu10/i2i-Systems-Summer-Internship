@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="95572FD6-1AAC-CA62-9958-7BD9BAC5CEED" schemaObject="2CE7367F-2D78-6859-35E1-9F792EF759F4" name="JOB_HISTORY">
+<sourceConnName>TEST_BARIS</sourceConnName>
+<sourceObjSchema>BARIS</sourceObjSchema>
+<sourceObjName>JOB_HISTORY</sourceObjName>
+<createdBy>baris</createdBy>
+<createdTime>2025-07-16 02:42:54 UTC</createdTime>
+<ownerDesignName>16.07.2025</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="JHIST_DATE_INTERVAL" directorySegmentName="seg_0" id="1DC8F5B8-E81F-2FC1-5095-7D5691948C13">
+<sourceConnName>TEST_BARIS</sourceConnName>
+<sourceObjSchema>BARIS</sourceObjSchema>
+<sourceObjName>JHIST_DATE_INTERVAL</sourceObjName>
+<createdBy>baris</createdBy>
+<createdTime>2025-07-16 02:42:54 UTC</createdTime>
+<ownerDesignName>16.07.2025</ownerDesignName>
+<rule><![CDATA[start_date < end_date]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="SYS_C007469" directorySegmentName="seg_0" id="61905BDA-1508-3AE5-ACA6-E046742E7B08">
+<sourceConnName>TEST_BARIS</sourceConnName>
+<sourceObjSchema>BARIS</sourceObjSchema>
+<sourceObjName>SYS_C007469</sourceObjName>
+<createdBy>baris</createdBy>
+<createdTime>2025-07-16 02:42:54 UTC</createdTime>
+<ownerDesignName>16.07.2025</ownerDesignName>
+<rule><![CDATA["START_DATE" IS NOT NULL]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="SYS_C007470" directorySegmentName="seg_0" id="5ADBA138-1157-61D9-E742-F21A054A16BC">
+<sourceConnName>TEST_BARIS</sourceConnName>
+<sourceObjSchema>BARIS</sourceObjSchema>
+<sourceObjName>SYS_C007470</sourceObjName>
+<createdBy>baris</createdBy>
+<createdTime>2025-07-16 02:42:54 UTC</createdTime>
+<ownerDesignName>16.07.2025</ownerDesignName>
+<rule><![CDATA["END_DATE" IS NOT NULL]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="LOCATIONS" directorySegmentName="seg_0" id="C467B4D2-78E9-FAD0-20B8-C812972B2B67">
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:27:19 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+<schemaObject>CB4CB774-5F23-D3A3-63D5-EAE72EF9BE79</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>1F009C53-96D0-B4BB-F298-EC89274CB32C</segment>
+<tableSpace>37E55A4F-DBCD-AEF8-5F2E-F2BB168F4340</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="LOC_ID_PK" id="61023648-E2E9-6D16-5FF4-2E859C1D1FA3">
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:27:19 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+<schemaObject>CB4CB774-5F23-D3A3-63D5-EAE72EF9BE79</schemaObject>
+<segment>C09AFEAD-C3C7-C64A-5597-2940DADC3DF3</segment>
+<tableSpace>37E55A4F-DBCD-AEF8-5F2E-F2BB168F4340</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="LOC_C_ID_FK" id="D9333ABF-EAE9-8AF0-593B-E2F16A5761BB">
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:27:19 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="LOC_ID_PK" id="6D29F31A-7861-D258-2114-0B0F7F272E3E">
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:27:19 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+<segment>C09AFEAD-C3C7-C64A-5597-2940DADC3DF3</segment>
+<tableSpace>37E55A4F-DBCD-AEF8-5F2E-F2BB168F4340</tableSpace>
+<existingIndex>61023648-E2E9-6D16-5FF4-2E859C1D1FA3</existingIndex>
+<indexSegment>C09AFEAD-C3C7-C64A-5597-2940DADC3DF3</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="SYS_C007488" id="07EF2CCE-CF7D-228A-20E6-6447A324FEBA">
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:27:19 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+</TableCheckConstraint>
+</tableCheckConstraints>
+</TableProxyOraclev12c>

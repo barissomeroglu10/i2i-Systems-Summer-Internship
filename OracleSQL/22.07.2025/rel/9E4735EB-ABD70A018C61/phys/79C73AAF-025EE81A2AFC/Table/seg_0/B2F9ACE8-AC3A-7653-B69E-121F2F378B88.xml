@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="COUNTRIES" directorySegmentName="seg_0" id="B2F9ACE8-AC3A-7653-B69E-121F2F378B88">
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:26:58 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+<schemaObject>CB4CB774-5F23-D3A3-63D5-EAE72EF9BE79</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>1F009C53-96D0-B4BB-F298-EC89274CB32C</segment>
+<tableSpace>37E55A4F-DBCD-AEF8-5F2E-F2BB168F4340</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="COUNTR_ID_PK" id="E452BE5F-F21F-F7B6-8FED-302C92B20F75">
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:26:58 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+<schemaObject>CB4CB774-5F23-D3A3-63D5-EAE72EF9BE79</schemaObject>
+<segment>C09AFEAD-C3C7-C64A-5597-2940DADC3DF3</segment>
+<tableSpace>37E55A4F-DBCD-AEF8-5F2E-F2BB168F4340</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="COUNTR_REG_FK" id="167851B2-E6F0-46C7-715D-76E3583C3563">
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:26:58 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="COUNTR_ID_PK" id="7CBBC3EA-39ED-E049-113D-FDB3993910B9">
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:26:58 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+<segment>C09AFEAD-C3C7-C64A-5597-2940DADC3DF3</segment>
+<tableSpace>37E55A4F-DBCD-AEF8-5F2E-F2BB168F4340</tableSpace>
+<existingIndex>E452BE5F-F21F-F7B6-8FED-302C92B20F75</existingIndex>
+<indexSegment>C09AFEAD-C3C7-C64A-5597-2940DADC3DF3</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

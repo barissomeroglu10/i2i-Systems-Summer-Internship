@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="16.07.2025" id="B45D3CC6-E10D-D3C9-CF50-6113831673B4" version="3.5">
+<createdBy>baris</createdBy>
+<createdTime>2025-07-16 02:34:42 UTC</createdTime>
+<ownerDesignName>16.07.2025</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B45D3CC6-E10D-D3C9-CF50-6113831673B4</designId>
+</OSDM_Design>

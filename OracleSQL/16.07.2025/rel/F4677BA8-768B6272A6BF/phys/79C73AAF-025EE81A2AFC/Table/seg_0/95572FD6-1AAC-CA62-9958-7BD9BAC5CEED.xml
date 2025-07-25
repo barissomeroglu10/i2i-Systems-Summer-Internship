@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="JOB_HISTORY" directorySegmentName="seg_0" id="95572FD6-1AAC-CA62-9958-7BD9BAC5CEED">
+<createdBy>baris</createdBy>
+<createdTime>2025-07-16 02:42:54 UTC</createdTime>
+<ownerDesignName>16.07.2025</ownerDesignName>
+<schemaObject>2CE7367F-2D78-6859-35E1-9F792EF759F4</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>7AB1F398-BF20-D71A-D709-7CE22E6BC8EC</segment>
+<tableSpace>8929C5D0-BD79-2E2D-E46F-ECF1841075CE</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="JHIST_DATE_INTERVAL" id="1DC8F5B8-E81F-2FC1-5095-7D5691948C13">
+<createdBy>baris</createdBy>
+<createdTime>2025-07-16 02:42:54 UTC</createdTime>
+<ownerDesignName>16.07.2025</ownerDesignName>
+</TableCheckConstraint>
+<TableCheckConstraint name="SYS_C007470" id="5ADBA138-1157-61D9-E742-F21A054A16BC">
+<createdBy>baris</createdBy>
+<createdTime>2025-07-16 02:42:54 UTC</createdTime>
+<ownerDesignName>16.07.2025</ownerDesignName>
+</TableCheckConstraint>
+<TableCheckConstraint name="SYS_C007469" id="61905BDA-1508-3AE5-ACA6-E046742E7B08">
+<createdBy>baris</createdBy>
+<createdTime>2025-07-16 02:42:54 UTC</createdTime>
+<ownerDesignName>16.07.2025</ownerDesignName>
+</TableCheckConstraint>
+</tableCheckConstraints>
+</TableProxyOraclev12c>

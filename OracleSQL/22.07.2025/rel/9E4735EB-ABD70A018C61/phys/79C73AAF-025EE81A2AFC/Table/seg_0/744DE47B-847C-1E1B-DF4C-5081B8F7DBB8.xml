@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="EMPLOYEES" directorySegmentName="seg_0" id="744DE47B-847C-1E1B-DF4C-5081B8F7DBB8">
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:27:40 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+<schemaObject>CB4CB774-5F23-D3A3-63D5-EAE72EF9BE79</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>1F009C53-96D0-B4BB-F298-EC89274CB32C</segment>
+<tableSpace>37E55A4F-DBCD-AEF8-5F2E-F2BB168F4340</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="EMP_EMP_ID_PK" id="23DF21A4-D9C8-8785-06F9-BAF2E6162A4C">
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:27:40 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+<schemaObject>CB4CB774-5F23-D3A3-63D5-EAE72EF9BE79</schemaObject>
+<segment>C09AFEAD-C3C7-C64A-5597-2940DADC3DF3</segment>
+<tableSpace>37E55A4F-DBCD-AEF8-5F2E-F2BB168F4340</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="EMP_MAIL_UNIQ" id="24A529D6-51DE-F577-D41B-A2EFB7801D6F">
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:27:40 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+<schemaObject>CB4CB774-5F23-D3A3-63D5-EAE72EF9BE79</schemaObject>
+<segment>C09AFEAD-C3C7-C64A-5597-2940DADC3DF3</segment>
+<tableSpace>37E55A4F-DBCD-AEF8-5F2E-F2BB168F4340</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EMP_MANAGER_FK" id="15E0498F-BC1D-5F24-E266-9908DB8718A2">
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:27:40 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EMP_DEPT_FK" id="29E0311F-229D-8859-3CA8-A59F3F6568E8">
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:27:40 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EMP_JOB_FK" id="EFC22C62-6182-ADFB-1440-625D4B3C8A95">
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:27:40 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="EMP_EMP_ID_PK" id="C858BA80-7887-8669-2987-540E62A4087B">
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:27:40 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+<segment>C09AFEAD-C3C7-C64A-5597-2940DADC3DF3</segment>
+<tableSpace>37E55A4F-DBCD-AEF8-5F2E-F2BB168F4340</tableSpace>
+<existingIndex>23DF21A4-D9C8-8785-06F9-BAF2E6162A4C</existingIndex>
+<indexSegment>C09AFEAD-C3C7-C64A-5597-2940DADC3DF3</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="EMP_SALARY_MIN" id="0E0D3CB9-A8BF-7F25-EED5-BD03F0A9F137">
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:27:40 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+</TableCheckConstraint>
+<TableCheckConstraint name="SYS_C007491" id="2B1B10BB-194E-602A-3020-0378D4A8ED14">
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:27:40 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+</TableCheckConstraint>
+<TableCheckConstraint name="SYS_C007490" id="8DB3CBFE-F6E4-90AC-FB33-DA8C49BFCC49">
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:27:40 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+</TableCheckConstraint>
+</tableCheckConstraints>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="EMP_MAIL_UNIQ" id="E3B08423-65D6-FF94-5CB6-10A0AEC48750">
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:27:40 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+<segment>C09AFEAD-C3C7-C64A-5597-2940DADC3DF3</segment>
+<tableSpace>37E55A4F-DBCD-AEF8-5F2E-F2BB168F4340</tableSpace>
+<existingIndex>24A529D6-51DE-F577-D41B-A2EFB7801D6F</existingIndex>
+<indexSegment>C09AFEAD-C3C7-C64A-5597-2940DADC3DF3</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

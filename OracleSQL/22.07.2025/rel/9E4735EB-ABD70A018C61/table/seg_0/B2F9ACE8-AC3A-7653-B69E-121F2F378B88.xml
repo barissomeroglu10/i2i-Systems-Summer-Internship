@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B2F9ACE8-AC3A-7653-B69E-121F2F378B88" schemaObject="CB4CB774-5F23-D3A3-63D5-EAE72EF9BE79" name="COUNTRIES">
+<sourceConnName>TEST_BARIS</sourceConnName>
+<sourceObjSchema>BARIS</sourceObjSchema>
+<sourceObjName>COUNTRIES</sourceObjName>
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:26:58 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7CBBC3EA-39ED-E049-113D-FDB3993910B9" name="COUNTR_ID_PK">
+<sourceConnName>TEST_BARIS</sourceConnName>
+<sourceObjSchema>BARIS</sourceObjSchema>
+<sourceObjName>COUNTR_ID_PK</sourceObjName>
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:26:58 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+<pk>true</pk>
+<indexExpression>COUNTRY_ID</indexExpression>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="E452BE5F-F21F-F7B6-8FED-302C92B20F75" schemaObject="CB4CB774-5F23-D3A3-63D5-EAE72EF9BE79" name="COUNTR_ID_PK">
+<sourceConnName>TEST_BARIS</sourceConnName>
+<sourceObjSchema>BARIS</sourceObjSchema>
+<sourceObjName>COUNTR_ID_PK</sourceObjName>
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:26:58 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+<indexExpression>COUNTRY_ID</indexExpression>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="167851B2-E6F0-46C7-715D-76E3583C3563" name="COUNTR_REG_FK">
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:26:58 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

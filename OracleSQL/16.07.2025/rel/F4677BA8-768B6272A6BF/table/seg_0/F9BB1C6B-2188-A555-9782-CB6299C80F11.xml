@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F9BB1C6B-2188-A555-9782-CB6299C80F11" schemaObject="2CE7367F-2D78-6859-35E1-9F792EF759F4" name="LOCATIONS">
+<sourceConnName>TEST_BARIS</sourceConnName>
+<sourceObjSchema>BARIS</sourceObjSchema>
+<sourceObjName>LOCATIONS</sourceObjName>
+<createdBy>baris</createdBy>
+<createdTime>2025-07-16 02:40:56 UTC</createdTime>
+<ownerDesignName>16.07.2025</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="SYS_C007463" directorySegmentName="seg_0" id="92BB44CC-B887-582C-8217-C385A186120C">
+<sourceConnName>TEST_BARIS</sourceConnName>
+<sourceObjSchema>BARIS</sourceObjSchema>
+<sourceObjName>SYS_C007463</sourceObjName>
+<createdBy>baris</createdBy>
+<createdTime>2025-07-16 02:40:56 UTC</createdTime>
+<ownerDesignName>16.07.2025</ownerDesignName>
+<rule><![CDATA["CITY" IS NOT NULL]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_2" id="9E4735EB-CE84-60B5-0868-ABD70A018C61" mainViewID="31D963D5-0AF6-4BE8-6524-5740867AA5C0">
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 10:47:06 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>79C73AAF-E1A7-E669-7DF0-025EE81A2AFC</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>TEST_BARIS</connName>
+<connUser>BARIS</connUser>
+<connType>1</connType>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>

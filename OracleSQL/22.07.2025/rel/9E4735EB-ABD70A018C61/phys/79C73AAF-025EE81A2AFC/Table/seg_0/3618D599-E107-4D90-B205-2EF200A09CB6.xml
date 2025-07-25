@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="JOBS" directorySegmentName="seg_0" id="3618D599-E107-4D90-B205-2EF200A09CB6">
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:28:37 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+<schemaObject>CB4CB774-5F23-D3A3-63D5-EAE72EF9BE79</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>1F009C53-96D0-B4BB-F298-EC89274CB32C</segment>
+<tableSpace>37E55A4F-DBCD-AEF8-5F2E-F2BB168F4340</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="JOB_ID_PK" id="61E9BCDB-A139-E51E-D552-5332BEE7BD64">
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:28:37 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+<schemaObject>CB4CB774-5F23-D3A3-63D5-EAE72EF9BE79</schemaObject>
+<segment>C09AFEAD-C3C7-C64A-5597-2940DADC3DF3</segment>
+<tableSpace>37E55A4F-DBCD-AEF8-5F2E-F2BB168F4340</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="JOB_ID_PK" id="5EEA5825-25C2-2CB0-D98D-14356959FE0C">
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:28:37 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+<segment>C09AFEAD-C3C7-C64A-5597-2940DADC3DF3</segment>
+<tableSpace>37E55A4F-DBCD-AEF8-5F2E-F2BB168F4340</tableSpace>
+<existingIndex>61E9BCDB-A139-E51E-D552-5332BEE7BD64</existingIndex>
+<indexSegment>C09AFEAD-C3C7-C64A-5597-2940DADC3DF3</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="SYS_C007489" id="B307D046-DB27-44D4-62CE-A18D31D0516D">
+<createdBy>baris</createdBy>
+<createdTime>2025-07-22 14:28:37 UTC</createdTime>
+<ownerDesignName>22.07.2025</ownerDesignName>
+</TableCheckConstraint>
+</tableCheckConstraints>
+</TableProxyOraclev12c>
