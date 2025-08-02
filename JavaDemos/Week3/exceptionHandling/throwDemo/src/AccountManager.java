@@ -5,12 +5,13 @@ public class AccountManager {
         balance = getBalance() + amount;
     }
 
-    public void Withdraw(double amount) throws Exception {
+    public void Withdraw(double amount) throws BalanceInsufficentException {
         if(balance >= amount){
             balance = getBalance() - amount;
         }
         else{
-            throw new Exception("Balance isn't enaugh");
+            // using our own exception
+            throw new BalanceInsufficentException("Balance isn't enough");
         }
     }
 

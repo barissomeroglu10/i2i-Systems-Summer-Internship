@@ -9,7 +9,7 @@ public class Main {
 
         try {
             accountManager.Withdraw(90);
-        } catch (Exception e) {
+        } catch (BalanceInsufficentException e) {
             System.out.println(e.getMessage());
         }
 
@@ -17,7 +17,7 @@ public class Main {
 
         try {
             accountManager.Withdraw(20);
-        } catch (Exception e) {
+        } catch (BalanceInsufficentException e) {
             System.out.println(e.getMessage());
         }
 
