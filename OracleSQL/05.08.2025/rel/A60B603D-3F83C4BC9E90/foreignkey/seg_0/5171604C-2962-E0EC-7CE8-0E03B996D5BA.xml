@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5171604C-2962-E0EC-7CE8-0E03B996D5BA" containerWithKeyObject="4156881D-52C4-720D-96DC-B7638D205C3D" localFKIndex="C3B8DB53-FDC1-50DB-2945-0D11E497CA3A" name="EMP_JOB_FK">
+<sourceConnName>TEST_BARIS</sourceConnName>
+<sourceObjSchema>BARIS</sourceObjSchema>
+<sourceObjName>EMP_JOB_FK</sourceObjName>
+<createdBy>baris</createdBy>
+<createdTime>2025-08-04 20:22:23 UTC</createdTime>
+<ownerDesignName>05.08.2025</ownerDesignName>
+<referredTableLongName>BARIS.JOBS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<mandatory>false</mandatory>
+<refColNames>JOB_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

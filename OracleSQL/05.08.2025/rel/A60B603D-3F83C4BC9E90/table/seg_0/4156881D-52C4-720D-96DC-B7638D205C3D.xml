@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4156881D-52C4-720D-96DC-B7638D205C3D" schemaObject="96DAE534-1F7D-D362-0B29-0BDDE1253C5B" name="EMPLOYEES">
+<sourceConnName>TEST_BARIS</sourceConnName>
+<sourceObjSchema>BARIS</sourceObjSchema>
+<sourceObjName>EMPLOYEES</sourceObjName>
+<createdBy>baris</createdBy>
+<createdTime>2025-08-04 20:22:22 UTC</createdTime>
+<ownerDesignName>05.08.2025</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="61DEAD8A-FC52-DB31-014D-51E69ABE774C" name="EMP_EMP_ID_PK">
+<sourceConnName>TEST_BARIS</sourceConnName>
+<sourceObjSchema>BARIS</sourceObjSchema>
+<sourceObjName>EMP_EMP_ID_PK</sourceObjName>
+<createdBy>baris</createdBy>
+<createdTime>2025-08-04 20:22:23 UTC</createdTime>
+<ownerDesignName>05.08.2025</ownerDesignName>
+<pk>true</pk>
+<indexExpression>EMPLOYEE_ID</indexExpression>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="63AE7415-A99C-83E3-A584-FA7CD7FDD423" name="EMP_MAIL_UNIQ">
+<sourceConnName>TEST_BARIS</sourceConnName>
+<sourceObjSchema>BARIS</sourceObjSchema>
+<sourceObjName>EMP_MAIL_UNIQ</sourceObjName>
+<createdBy>baris</createdBy>
+<createdTime>2025-08-04 20:22:23 UTC</createdTime>
+<ownerDesignName>05.08.2025</ownerDesignName>
+<indexExpression>EMAIL</indexExpression>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="C982C08F-083D-41D2-3AA8-F722F3592FE6" schemaObject="96DAE534-1F7D-D362-0B29-0BDDE1253C5B" name="EMP_EMP_ID_PK">
+<sourceConnName>TEST_BARIS</sourceConnName>
+<sourceObjSchema>BARIS</sourceObjSchema>
+<sourceObjName>EMP_EMP_ID_PK</sourceObjName>
+<createdBy>baris</createdBy>
+<createdTime>2025-08-04 20:22:22 UTC</createdTime>
+<ownerDesignName>05.08.2025</ownerDesignName>
+<indexExpression>EMPLOYEE_ID</indexExpression>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="72579A33-414F-F7CC-51F8-E2375D4A00BA" schemaObject="96DAE534-1F7D-D362-0B29-0BDDE1253C5B" name="EMP_MAIL_UNIQ">
+<sourceConnName>TEST_BARIS</sourceConnName>
+<sourceObjSchema>BARIS</sourceObjSchema>
+<sourceObjName>EMP_MAIL_UNIQ</sourceObjName>
+<createdBy>baris</createdBy>
+<createdTime>2025-08-04 20:22:22 UTC</createdTime>
+<ownerDesignName>05.08.2025</ownerDesignName>
+<indexExpression>EMAIL</indexExpression>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="C3B8DB53-FDC1-50DB-2945-0D11E497CA3A" name="EMP_JOB_FK">
+<createdBy>baris</createdBy>
+<createdTime>2025-08-04 20:22:23 UTC</createdTime>
+<ownerDesignName>05.08.2025</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="EMP_SALARY_MIN" directorySegmentName="seg_0" id="8E985802-15B2-DA31-8525-84DB83239C6F">
+<sourceConnName>TEST_BARIS</sourceConnName>
+<sourceObjSchema>BARIS</sourceObjSchema>
+<sourceObjName>EMP_SALARY_MIN</sourceObjName>
+<createdBy>baris</createdBy>
+<createdTime>2025-08-04 20:22:23 UTC</createdTime>
+<ownerDesignName>05.08.2025</ownerDesignName>
+<rule><![CDATA[salary > 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="SYS_C007536" directorySegmentName="seg_0" id="C9C318DE-3544-6B6B-8FFA-2C30982F1CD6">
+<sourceConnName>TEST_BARIS</sourceConnName>
+<sourceObjSchema>BARIS</sourceObjSchema>
+<sourceObjName>SYS_C007536</sourceObjName>
+<createdBy>baris</createdBy>
+<createdTime>2025-08-04 20:22:23 UTC</createdTime>
+<ownerDesignName>05.08.2025</ownerDesignName>
+<rule><![CDATA["EMAIL" IS NOT NULL]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="SYS_C007537" directorySegmentName="seg_0" id="0E0A5889-E907-07D0-9635-9B38B2470C97">
+<sourceConnName>TEST_BARIS</sourceConnName>
+<sourceObjSchema>BARIS</sourceObjSchema>
+<sourceObjName>SYS_C007537</sourceObjName>
+<createdBy>baris</createdBy>
+<createdTime>2025-08-04 20:22:23 UTC</createdTime>
+<ownerDesignName>05.08.2025</ownerDesignName>
+<rule><![CDATA["HIRE_DATE" IS NOT NULL]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

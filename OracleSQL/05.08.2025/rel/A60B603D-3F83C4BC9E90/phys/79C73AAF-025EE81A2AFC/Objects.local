@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v12cr2.StorageDesignOraclev12cR2>
+   <object objectType="TSpace" objectID="37F15BD2-DE2C-D7DC-9FCE-A19E28BCBB59" name="USERS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" propertyParentId="79C73AAF-025EE81A2AFC"/>
+   <object objectType="User" objectID="338C782D-C595-28C0-8AAF-3A3D8CC705FF" name="BARIS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" propertyParentId="79C73AAF-025EE81A2AFC"/>
+   <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" propertyParentId="79C73AAF-025EE81A2AFC"/>
+   <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" propertyParentId="79C73AAF-025EE81A2AFC"/>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v10g.StructuredTypeProxyOraclev10g" propertyParentId="79C73AAF-025EE81A2AFC"/>
+   <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v10g.StructuredTypeProxyOraclev10g" propertyParentId="79C73AAF-025EE81A2AFC"/>
+   <object objectType="Table" objectID="4156881D-52C4-720D-96DC-B7638D205C3D" name="EMPLOYEES" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" propertyParentId="79C73AAF-025EE81A2AFC"/>
+   <object objectType="Segment" objectID="3343D901-39CD-8520-EF48-F4D59A48C767" name="Storage2" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v10g.SegmentOraclev10g" propertyParentId="79C73AAF-025EE81A2AFC"/>
+   <object objectType="Segment" objectID="B8455985-4B61-EB51-F7F5-C6576AA878C2" name="Storage4" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v10g.SegmentOraclev10g" propertyParentId="79C73AAF-025EE81A2AFC"/>
+</oracle.dbtools.crest.model.design.storage.oracle.v12cr2.StorageDesignOraclev12cR2>

@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="EMPLOYEES" directorySegmentName="seg_0" id="4156881D-52C4-720D-96DC-B7638D205C3D">
+<createdBy>baris</createdBy>
+<createdTime>2025-08-04 20:22:22 UTC</createdTime>
+<ownerDesignName>05.08.2025</ownerDesignName>
+<schemaObject>96DAE534-1F7D-D362-0B29-0BDDE1253C5B</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>3343D901-39CD-8520-EF48-F4D59A48C767</segment>
+<tableSpace>37F15BD2-DE2C-D7DC-9FCE-A19E28BCBB59</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="EMP_MAIL_UNIQ" id="72579A33-414F-F7CC-51F8-E2375D4A00BA">
+<createdBy>baris</createdBy>
+<createdTime>2025-08-04 20:22:22 UTC</createdTime>
+<ownerDesignName>05.08.2025</ownerDesignName>
+<schemaObject>96DAE534-1F7D-D362-0B29-0BDDE1253C5B</schemaObject>
+<segment>B8455985-4B61-EB51-F7F5-C6576AA878C2</segment>
+<tableSpace>37F15BD2-DE2C-D7DC-9FCE-A19E28BCBB59</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="EMP_EMP_ID_PK" id="C982C08F-083D-41D2-3AA8-F722F3592FE6">
+<createdBy>baris</createdBy>
+<createdTime>2025-08-04 20:22:22 UTC</createdTime>
+<ownerDesignName>05.08.2025</ownerDesignName>
+<schemaObject>96DAE534-1F7D-D362-0B29-0BDDE1253C5B</schemaObject>
+<segment>B8455985-4B61-EB51-F7F5-C6576AA878C2</segment>
+<tableSpace>37F15BD2-DE2C-D7DC-9FCE-A19E28BCBB59</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EMP_JOB_FK" id="C3B8DB53-FDC1-50DB-2945-0D11E497CA3A">
+<createdBy>baris</createdBy>
+<createdTime>2025-08-04 20:22:23 UTC</createdTime>
+<ownerDesignName>05.08.2025</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="EMP_EMP_ID_PK" id="61DEAD8A-FC52-DB31-014D-51E69ABE774C">
+<createdBy>baris</createdBy>
+<createdTime>2025-08-04 20:22:23 UTC</createdTime>
+<ownerDesignName>05.08.2025</ownerDesignName>
+<segment>B8455985-4B61-EB51-F7F5-C6576AA878C2</segment>
+<tableSpace>37F15BD2-DE2C-D7DC-9FCE-A19E28BCBB59</tableSpace>
+<existingIndex>C982C08F-083D-41D2-3AA8-F722F3592FE6</existingIndex>
+<indexSegment>B8455985-4B61-EB51-F7F5-C6576AA878C2</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="SYS_C007537" id="0E0A5889-E907-07D0-9635-9B38B2470C97">
+<createdBy>baris</createdBy>
+<createdTime>2025-08-04 20:22:23 UTC</createdTime>
+<ownerDesignName>05.08.2025</ownerDesignName>
+</TableCheckConstraint>
+<TableCheckConstraint name="EMP_SALARY_MIN" id="8E985802-15B2-DA31-8525-84DB83239C6F">
+<createdBy>baris</createdBy>
+<createdTime>2025-08-04 20:22:23 UTC</createdTime>
+<ownerDesignName>05.08.2025</ownerDesignName>
+</TableCheckConstraint>
+<TableCheckConstraint name="SYS_C007536" id="C9C318DE-3544-6B6B-8FFA-2C30982F1CD6">
+<createdBy>baris</createdBy>
+<createdTime>2025-08-04 20:22:23 UTC</createdTime>
+<ownerDesignName>05.08.2025</ownerDesignName>
+</TableCheckConstraint>
+</tableCheckConstraints>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="EMP_MAIL_UNIQ" id="63AE7415-A99C-83E3-A584-FA7CD7FDD423">
+<createdBy>baris</createdBy>
+<createdTime>2025-08-04 20:22:23 UTC</createdTime>
+<ownerDesignName>05.08.2025</ownerDesignName>
+<segment>B8455985-4B61-EB51-F7F5-C6576AA878C2</segment>
+<tableSpace>37F15BD2-DE2C-D7DC-9FCE-A19E28BCBB59</tableSpace>
+<existingIndex>72579A33-414F-F7CC-51F8-E2375D4A00BA</existingIndex>
+<indexSegment>B8455985-4B61-EB51-F7F5-C6576AA878C2</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

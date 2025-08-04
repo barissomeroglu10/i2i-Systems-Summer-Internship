@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="96DAE534-1F7D-D362-0B29-0BDDE1253C5B" name="BARIS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.SchemaObject" propertyParentId="A60B603D-D022-25F9-8634-3F83C4BC9E90" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="4156881D-52C4-720D-96DC-B7638D205C3D" name="EMPLOYEES" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="A60B603D-D022-25F9-8634-3F83C4BC9E90" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="5171604C-2962-E0EC-7CE8-0E03B996D5BA" name="EMP_JOB_FK" seqName="seg_0" containerID="4156881D-52C4-720D-96DC-B7638D205C3D" propertyClassName="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" propertyParentId="A60B603D-D022-25F9-8634-3F83C4BC9E90" propertySourceId="" propertyTargetId="4156881D-52C4-720D-96DC-B7638D205C3D"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>
