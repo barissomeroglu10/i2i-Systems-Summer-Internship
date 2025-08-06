@@ -1,0 +1,52 @@
+INSERT INTO country (Code, Name, Continent, Region, SurfaceArea, IndepYear, Population, LifeExpectancy, GNP, GNPOld, LocalName) VALUES
+('USA', 'United States', 'North America', 'North America', 9833520, 1776, 331002651, 78.8, 21433226, 20580225, 'United States'),
+('DEU', 'Germany', 'Europe', 'Western Europe', 357022, 1955, 83783942, 81.1, 3845630, 3693200, 'Deutschland'),
+('JPN', 'Japan', 'Asia', 'East Asia', 377975, 1952, 125960000, 84.6, 5064873, 4954806, 'Nippon'),
+('BRA', 'Brazil', 'South America', 'South America', 8515767, 1822, 213993437, 75.9, 1839758, 1802212, 'Brasil'),
+('TUR', 'Turkey', 'Asia', 'Middle East', 783562, 1923, 84680273, 77.7, 819140, 761425, 'Türkiye'),
+('FRA', 'France', 'Europe', 'Western Europe', 640679, 843, 67391582, 82.7, 2715518, 2611309, 'France'),
+('CHN', 'China', 'Asia', 'Eastern Asia', 9596961, -1523, 1444216107, 77.3, 14342903, 13608152, 'Zhongguo'),
+('RUS', 'Russia', 'Europe', 'Eastern Europe', 17098242, 1991, 146171015, 73.2, 1775231, 1675631, 'Rossiya'),
+('EGY', 'Egypt', 'Africa', 'Northern Africa', 1002450, 1922, 102334404, 71.8, 363070, 336264, 'Misr'),
+('IND', 'India', 'Asia', 'Southern Asia', 3287263, 1947, 1393409038, 69.7, 2875142, 2726328, 'Bharat');
+
+INSERT INTO city (Name, CountryCode, District, Population) VALUES
+('New York',    'USA', 'New York',     8419000),
+('Los Angeles', 'USA', 'California',   3980400),
+('Berlin',      'DEU', 'Berlin',       3769000),
+('Munich',      'DEU', 'Bavaria',      1472000),
+('Tokyo',       'JPN', 'Tokyo',        13929286),
+('Osaka',       'JPN', 'Kansai',       2715000),
+('São Paulo',   'BRA', 'São Paulo',    12300000),
+('Rio de Janeiro','BRA','Rio de Janeiro', 6748000),
+('Istanbul',    'TUR', 'Marmara',      15520000),
+('Ankara',      'TUR', 'Central Anatolia', 5503985),
+('Paris',       'FRA', 'Île-de-France', 2161000),
+('Shanghai',    'CHN', 'Shanghai',     24183300),
+('Moscow',      'RUS', 'Moscow',       12506468),
+('Cairo',       'EGY', 'Cairo',        20484965),
+('Mumbai',      'IND', 'Maharashtra',  12442373),
+('Delhi',       'IND', 'Delhi',        16787941);
+
+INSERT INTO countrylanguage (CountryCode, Language, IsOfficial, Percentage) VALUES
+('USA', 'English', 'T', 82.1),
+('USA', 'Spanish', 'F', 13.5),
+('DEU', 'German', 'T', 95.0),
+('DEU', 'Turkish', 'F', 1.8),
+('JPN', 'Japanese', 'T', 99.2),
+('BRA', 'Portuguese', 'T', 98.0),
+('BRA', 'Spanish', 'F', 1.0),
+('TUR', 'Turkish', 'T', 93.0),
+('TUR', 'Kurdish', 'F', 6.0),
+('FRA', 'French', 'T', 94.0),
+('FRA', 'Arabic', 'F', 2.0),
+('CHN', 'Chinese', 'T', 91.5),
+('CHN', 'Cantonese', 'F', 3.0),
+('RUS', 'Russian', 'T', 98.0),
+('RUS', 'Tatar', 'F', 1.1),
+('EGY', 'Arabic', 'T', 93.0),
+('EGY', 'English', 'F', 1.0),
+('IND', 'Hindi', 'T', 44.0),
+('IND', 'English', 'F', 10.0),
+('IND', 'Bengali', 'F', 8.1);
+
