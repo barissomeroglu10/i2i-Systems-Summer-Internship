@@ -77,7 +77,7 @@ The following topics are studied and practiced throughout the internship:
 - [ ] Secure Coding Principles  
 - [ ] Bash Scripting  
 - [ ] Git and GitHub Workflow  
-- [ ] Presentation and Reporting Skills
+- [x] Presentation and Reporting Skills
 
 > This list will be updated regularly as new topics are covered.
 
