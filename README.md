@@ -75,7 +75,7 @@ The following topics are studied and practiced throughout the internship:
 - [x] Agile Methodologies and SCRUM  
 - [ ] Software Test Automation  
 - [ ] Secure Coding Principles  
-- [ ] Bash Scripting  
+- [x] Bash Scripting  
 - [ ] Git and GitHub Workflow  
 - [x] Presentation and Reporting Skills
 
